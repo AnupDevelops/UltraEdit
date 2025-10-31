@@ -1,0 +1,162 @@
+* {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI';
+    }
+
+    li {
+      list-style: none;
+      margin-top: 20px;
+      font-size: 16px;
+      font-family: 'Segoe UI';
+      color: rgb(77, 76, 76);
+      display: flex;
+      align-items: center;
+      gap: 2px;
+    }
+
+    ul {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      align-items: center;
+    }
+
+    .logo {
+      position: absolute;
+      margin-left: 200px;
+      margin-top: 10px;
+    }
+
+    svg {}
+
+    body {
+      font-family: 'Segoe UI';
+    }
+
+    .download {
+      border: 2px solid black;
+      display: inline;
+      padding: 5px;
+      font-size: 15px;
+      margin-top: 20px;
+      display: flex;
+      align-items: center;
+      position: absolute;
+      right: 280px;
+    }
+
+    .lang {
+      margin-top: 20px;
+      display: flex;
+      align-items: center;
+      position: absolute;
+      right: 190px;
+      font-size: 14px;
+    }
+
+    .search {
+      margin-top: 20px;
+      display: flex;
+      align-items: center;
+      position: absolute;
+      right: 150px;
+    }
+
+    .content {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      align-content: center;
+    }
+
+    .top {
+      margin-top: 80px;
+      font-size: 48px;
+    }
+    .mid{
+     font-size: 24px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     margin-top: 20px;
+     
+    }
+    .mid span{
+display: block;
+    }
+    .low{
+      color: #FFF;
+      background-color: #00B6D1;
+      padding: 12px 20px;
+      font-size: 14px;
+      text-align: center;
+      border: none;
+      border-radius: 5px;
+      margin-top: 60px;
+     
+    }
+    .but{
+ display: flex;
+      justify-content: center;
+    }
+    .semain img{
+      padding: 0px;
+    }
+    .semain{
+      display: flex;
+      align-items: center;
+      font-size: 24px;
+    }
+    .containers{
+      display: grid;
+      grid-template-columns: 300px 300px 300px;
+      grid-template-rows: 200px 200px 200px;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      row-gap: 50px;
+      margin-top: 100px;
+     
+     
+      
+      
+    }
+    .container{
+       border: 2px solid  #dddbd6;
+      background-color: #f2f0ec;
+        height: 200px;
+      width: 300px;
+      border-radius: 10px;
+      text-align: center;
+      padding-top: 20px;
+      font-family: 'Segoe UI';
+      font-size: 20px;
+    }
+    .English{
+      grid-row: 1/2;
+      grid-column: 1/2;
+       
+    }
+    footer{
+      height: 100px;
+      width: 100vw;
+    }
+    .txt{
+      font-size: 18px;
+      font-family: Arian Helvetica, sans-serif;
+      margin: 20px;
+    }
+    .dam{
+      background-color: #f7cb14;
+      border: 2px solid #f7cb14;
+      border-radius: 8px;
+      padding: 10px 24px;
+      font-size: 14px;
+      margin: 40px;
+    }
+     .deustch{
+      color: black;
+    text-decoration: none;
+     }
